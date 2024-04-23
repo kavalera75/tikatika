@@ -1,0 +1,291 @@
+
+body{
+
+}
+div{
+    background-color: rgb(254, 244, 194);
+}
+
+.nav_principal{
+    background-color: rgb(234, 21, 117);
+    padding:5px;
+    
+
+}
+
+.nav_principal li{
+    display: inline-block;
+    padding-top:30px;
+    margin-right:25px;
+    font-size:25px;
+    font-family: sans-serif;
+}
+.nav_principal ul{
+    text-align:end;
+}
+.nav_principal a{
+    text-decoration:none;
+    color: white;
+}
+ .nav_principal a:hover{
+    color:rgb(122, 55, 55);
+    transition: .4s;
+
+}
+
+.logo_nav{
+    height:50px;
+    position: absolute;
+    top:50px;
+}
+
+.header_principal img{
+    height:600px;
+    width:100%;
+    margin-top:20px;
+    position: relative;
+    margin-bottom:30px;
+
+}
+header_principal{
+    margin-top:100px;
+}
+
+.header_principal p{
+    display: inline-block;
+    position:absolute;
+    padding:1px 20px;
+    transition:1s;
+}
+
+.p_header{
+    background-color: white;
+    left:450px;
+    top:320px;
+    font-size:60px;
+    font-style: italic;
+    transition:blue 1s;
+    border: solid 2px white;
+    border-radius:20px;
+}
+.p_header2{
+    background-color: none;
+    left:650px;
+    top:320px;
+    font-size:60px;
+    background-color:rgb(234, 21, 117);
+    color: white;
+    font-style: italic;
+    border: solid 2px rgb(234, 21, 117);
+    border-radius:20px;
+}
+
+
+.titulo_article{
+    text-align: center;
+    margin:0px 200px;
+    font-size:20px;
+    font-family: sans-serif;
+    line-height:35px;
+    border-bottom: solid 2px black;
+}
+
+.menu_principal{
+    position:relative;
+    background-image:url(/fotos.siteFINAL/foto\ de\ fundo.jpg);
+    height:540px;
+}
+
+
+
+.menu_principal h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom:100px;
+}
+.menu_principal h2{
+    display:inline-block;
+    font-size:30px;
+}
+.bolos{
+    position:absolute;
+    top:60px;
+    left:170px;
+    font-style: italic;
+    border: solid 2px white;
+    padding:1px 20px;
+    border-radius:20px;
+    background-color: white;
+
+}
+.bolos_potes{
+    position: absolute;
+    top:60px;
+    right:490px;
+    font-style: italic;
+    padding:1px 20px;
+    border:solid 2px rgb(234, 21, 117) ;
+    border-radius: 20px;
+    color:white;
+    background-color:rgb(234, 21, 117);
+}
+.menu_principal img {
+    height:120px;
+    width:120px;
+}
+.img_menu{
+    float:left;
+
+}
+.img_menu2{
+    float:left;
+}
+.img_menu3{
+    float: left;
+    padding-right:20px;
+}
+.img_menu4{
+    float: left;
+}
+.img_menu5{
+    float: left;
+}
+.img_menu6{
+    float: left;
+    padding-right:20px ;
+}
+
+.h2_cardapio{
+    position:absolute;
+    top:215px;
+    right:150px;
+    border:solid 2px white;
+    border-radius:20px;
+    padding:0px 15px;
+    background-color:white;
+}
+
+
+#formulario_id{
+    position:relative;
+}
+.cadastro h1{
+    font-family: sans-serif;
+    font-size:20px;
+    margin-left:100px;
+    border-radius:20px;
+    border:solid 2px white;
+    width:300px;
+    padding:0px 40px;
+    background-color: white;
+}
+
+#cadastro{
+    margin-left:100px;
+}
+
+
+#fieldset_cadastro{
+    width:350px;
+    height:530px;
+    background-color:white;
+    border:none;
+    border-radius:20px;
+}
+
+#pedido_h3{
+    padding:20px;
+}
+
+
+#nome,#sobrenome,#senha,#gmail,#senha{
+    border-radius:20px;
+    display:block;
+    border:none;
+    border-bottom:solid;
+    padding:0px 40px;
+    margin-top:20px;
+    margin-left:47px;
+    font-style:none;
+}
+
+#fieldset_cadastro label{
+    display:block;
+    margin-left:40px;
+    margin-top:30px;
+    font-size:14px;
+    font-family:sans-serif;
+
+}
+
+.botao_cadastro{
+    border-radius:20px;
+    margin-top:70px;
+    padding:5px 100px;
+    margin-left:40px;
+}
+
+
+#pedido{
+    position:absolute;
+    right:50px;
+    top:2050px;
+}
+
+#pedido h1{
+    font-family: sans-serif;
+    font-size:20px;
+    padding-left:20px;    
+}
+
+#fieldset_pedido{
+    width:350px;
+    height:550px;
+    background-color:white;
+    border-radius:20px;
+    border:none;
+    border-radius:20px;
+
+}
+
+#fieldset_pedido label{
+display:block;
+font-size:23px;
+margin-top:30px;
+margin-left:30px;
+}
+
+#fieldset_pedido input{
+    margin-left:20px;
+}
+
+._botao_pedido{
+    border-radius:20px;
+    margin-top:35px;
+    padding:5px 100px;
+    margin-left:70px;
+}
+#area_pedido{
+    margin-bottom:23px;
+}
+
+footer{
+    background-color:rgb(234, 21, 117);
+}
+
+footer p{
+    font-size:15px;
+
+}
+.p_footer{
+    font-size:20px;
+    border:solid 2px white;
+    margin-right:450px;
+    text-align:center;
+    margin-left:450px;
+    background-color:white;
+    border-radius:20px;
+    font-size:30px;
+    font-family:sans-serif;
+
+}
